@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "package_arch",
+            "request": "launch",
+            "type": "dart",
+            "program":"application/lib/main.dart"
+        },
+        {
+            "name": "package_arch (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "application",
+            "cwd": "application",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "application (profile mode)",
+            "cwd": "application",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "design_sytem",
+            "cwd": "design_sytem",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "design_sytem (profile mode)",
+            "cwd": "design_sytem",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        }
+    ]
+}
